@@ -1,0 +1,5 @@
+# Bundle patch: mount the OpenCode Go quota monitor host half in DSH.
+- insert:
+    - id: opencode-go-quota
+      name: opencode-go-quota
+      inject: [timer, webServer]
